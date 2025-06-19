@@ -37,7 +37,7 @@ app:get("/", function(req, res, next)
         status = 1,
     })
 
-    ngx.log(ngx.DEBUG,"hello word")
+    ngx.log(ngx.DEBUG,"hello word112sss")
 
 
     res:json({
