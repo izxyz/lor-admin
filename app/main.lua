@@ -21,24 +21,13 @@ app:get("/", function(req, res, next)
     -- }
 
     -- local ret = db.insert("users",t)
-
+    -- 测试github网络
 
     local db = require("app.utils.db")
 
     local db0 = db()
 
     local begin = system.time()
-
-    local ret, err, errcode, sqlstate = db0:insert("users", {
-        username = tostring(system.time()),
-        password = 8888,
-        role = 1,
-        dept = 2,
-        status = 1,
-    })
-
-    ngx.log(ngx.DEBUG,"hello word112sss")
-
 
     res:json({
         name = "zhangsan"

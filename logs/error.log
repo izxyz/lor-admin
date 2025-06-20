@@ -1,1 +1,2 @@
 2025/06/20 05:36:36 [emerg] 13864#4128: CreateDirectory() "./temp/client_body_temp" failed (3: The system cannot find the path specified)
+2025/06/20 18:50:49 [error] 14036#13116: *3 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
